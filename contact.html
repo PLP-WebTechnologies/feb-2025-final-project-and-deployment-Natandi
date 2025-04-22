@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact | Accessible Zambia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Pitch Deck</h2>
+        <p>
+          Want to dive deeper into our mission and business model? Download our
+          pitch deck below to learn more.
+        </p>
+        <a href="pitchdeck.pdf" download>
+          <button>📄 Download Our Pitch Deck</button>
+        </a>
+      </section>
+
+      <section>
+        <h2>Gallery (Coming Soon)</h2>
+        <p>
+          We'll soon be sharing real-life images of people using our app at
+          accessible locations throughout Zambia. Stay tuned!
+        </p>
+      </section>
+      <section>
+        <h2>Get in Touch</h2>
+        <p>
+          We’d love to hear from you! Whether you have questions, feedback, or
+          are interested in supporting our mission, please feel free to reach
+          out using the form below.
+        </p>
+
+        <form id="contact-form">
+          <label for="name">Full Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Accessible Zambia — Empowering Mobility</p>
+    </footer>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
